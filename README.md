@@ -6,13 +6,5 @@ The goal of this project is to develop a multi-agent deep reinforcement learning
 
 Please note: This repository includes the code for the model implementation and simulation setup, but it does not contain the final results.
 
-Problem Statement
+## Problem Statement
 Blood and blood products are highly perishable, with a short shelf life and limited availability. Managing inventory for these products presents a significant challenge for hospitals and healthcare centers, especially when aiming to prevent resource wastage and shortages. The supply chain under investigation includes a supplier and two hospitals, and the objective is to minimize blood spoilage and shortages using a reinforcement learning model.
-
-Methodology
-This project implements a multi-agent deep reinforcement learning approach to optimize inventory management in a perishable supply chain. The key features include:
-
-Agents: Two agents are defined, responsible for making decisions about order quantities and blood transfers between hospitals.
-Environment: The simulation environment is based on demand data from the East Azerbaijan Blood Transfusion Organization and models inventory dynamics.
-Algorithm: The Proximal Policy Optimization (PPO) algorithm is used to train the agents. The agents collaborate to ensure demand fulfillment and minimize spoilage.
-The model supports lateral inventory transfers between hospitals, aiming to balance stock levels and reduce waste.
